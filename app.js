@@ -1,6 +1,6 @@
-const express = require("express");
+import express from "express";
 const app = express();
-const routes = require("./routes");
+import routes from "./routes";
 //setup view engine
 
 app.set("view engine", "ejs");
